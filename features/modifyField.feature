@@ -9,4 +9,4 @@ Feature: modify field
     And Click on "SETTINGS" section
     And Disable the Show header/footer option
     And Submit the changes
-    Then I must see that "Show Header/Footer" option disabled indeed
+    Then I make sure that "Show Header/Footer" option disabled indeed

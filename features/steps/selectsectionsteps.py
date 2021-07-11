@@ -17,7 +17,7 @@ def click_section(context, submenu):
     sbbutton = get_elm_by_text(submenu, sbbuttons)
     sbbutton.click()
 
-@then('I must see the "{formname}" page')
+@then('I make sure I am on "{formname}" page')
 def verify_page(context,formname):
     expect_text = formname
     admin_page = AdminPage(context.driver)

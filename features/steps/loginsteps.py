@@ -34,7 +34,7 @@ def verify_login(context,msg):
         "expected to see text {} but was {}".format(expected_text, actual_text)
     context.driver.close()
 
-@step('I must stay on "{pnlname}"')
+@step('I make sure I am on "{pnlname}"')
 def verify_login_fail(context,pnlname):
     expected_text = pnlname
     actual_text = context.login_page.get_panel().text

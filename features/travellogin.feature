@@ -15,7 +15,7 @@ Feature: PHPTRAVEL login
     When I open PHPTRAVEL login page
     And Enter email "<email>" and password "<pwd>"
     And Click on login button
-    And I must stay on "LOGIN PANEL"
+    And I make sure I am on "LOGIN PANEL"
     Then I see an error message "Invalid Login Credentials"
     Examples:
       | email                    | pwd       |

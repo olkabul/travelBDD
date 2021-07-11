@@ -18,7 +18,7 @@ def click_submit(context):
     submit.click()
     context.current_text = context.admin_page.get_field().text
 
-@then('I must see that "Show Header/Footer" option disabled indeed')
+@then('I make sure that "Show Header/Footer" option disabled indeed')
 def verify_disabled(context):
     expected_text = context.field_text
     actual_text = context.current_text

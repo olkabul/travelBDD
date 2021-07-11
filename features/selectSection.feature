@@ -7,4 +7,4 @@ Feature: Select Section
     And Click on login button
     And Open the "TP HOTELS" menu
     And Click on "SETTINGS" section
-    Then I must see the "TRAVELPAYOUTS" page
+    Then I make sure I am on "TRAVELPAYOUTS" page
